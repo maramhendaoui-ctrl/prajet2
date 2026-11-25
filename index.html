@@ -1,140 +1,136 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Présentation Git</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="conect.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
+    <header>
+      <h2>GIT & GITHUB</h2>
+    </header>
 
-<header>
-    GIT & GITHUB
-</header>
-
-<!-- Page 1 -->
-<section class="active">
-    <div class="center">
+    <!-- Page 1 -->
+    <section class="active">
+      <div class="center">
         <h1>Découvrir Git</h1>
         <h2>Présentation</h2>
         <p>
-            Comprendre le contrôle de version,
-            apprendre les commandes essentielles
-            et découvrir GitHub.
+          Comprendre le contrôle de version, apprendre les commandes
+          essentielles et découvrir GitHub.
         </p>
         <h1>🌿</h1>
-    </div>
-</section>
+      </div>
+    </section>
 
-<!-- Page 2 -->
-<section>
-    <h2>1. Qu'est-ce que Git ?</h2>
+    <!-- Page 2 -->
+    <section>
+      <h2>1. Qu'est-ce que Git ?</h2>
 
-    <p>
-        Git est un système de contrôle de version
-        distribué et open source.
-    </p>
+      <p>Git est un système de contrôle de version distribué et open source.</p>
 
-    <div class="card">
+      <div class="card">
         <h3>🕒 Historique</h3>
         <p>Garder une trace des modifications du projet.</p>
-    </div>
+      </div>
 
-    <div class="card">
+      <div class="card">
         <h3>🛟 Sécurité</h3>
         <p>Revenir à une ancienne version si nécessaire.</p>
-    </div>
+      </div>
 
-    <div class="card">
+      <div class="card">
         <h3>👥 Collaboration</h3>
         <p>Permettre à plusieurs développeurs de travailler ensemble.</p>
-    </div>
-</section>
+      </div>
+    </section>
 
-<!-- Page 3 -->
-<section>
-    <h2>2. Git et GitHub</h2>
+    <!-- Page 3 -->
+    <section>
+      <h2>2. Git et GitHub</h2>
 
-    <div class="card">
+      <div class="card">
         <h3>Git</h3>
         <p>
-            Git est un logiciel installé sur l'ordinateur.
-            Il permet de gérer les versions du projet.
+          Git est un logiciel installé sur l'ordinateur. Il permet de gérer les
+          versions du projet.
         </p>
-    </div>
+      </div>
 
-    <div class="card">
+      <div class="card">
         <h3>GitHub</h3>
         <p>
-            GitHub est une plateforme web qui héberge
-            les dépôts Git et facilite la collaboration.
+          GitHub est une plateforme web qui héberge les dépôts Git et facilite
+          la collaboration.
         </p>
-    </div>
-</section>
+      </div>
+    </section>
 
-<!-- Page 4 -->
-<section>
-    <h2>3. Les trois zones de Git</h2>
+    <!-- Page 4 -->
+    <section>
+      <h2>3. Les trois zones de Git</h2>
 
-    <div class="card">
+      <div class="card">
         <h3>1. Working Directory</h3>
         <p>C'est le dossier où on travaille et modifie les fichiers.</p>
-    </div>
+      </div>
 
-    <div class="card">
+      <div class="card">
         <h3>2. Staging Area</h3>
         <p>C'est la zone où on prépare les modifications.</p>
-    </div>
+      </div>
 
-    <div class="card">
+      <div class="card">
         <h3>3. Repository</h3>
         <p>C'est l'espace qui contient l'historique des commits.</p>
-    </div>
-</section>
+      </div>
+    </section>
 
-<!-- Page 5 -->
-<section>
-    <h2>4. Les commandes essentielles</h2>
+    <!-- Page 5 -->
+    <section>
+      <h2>4. Les commandes essentielles</h2>
 
-    <pre>
+      <pre>
 git init
 git status
 git add .
 git commit -m "Premier commit"
-    </pre>
+    </pre
+      >
 
-    <ul>
+      <ul>
         <li><code>git init</code> : initialise un dépôt Git.</li>
         <li><code>git status</code> : affiche l'état des fichiers.</li>
         <li><code>git add .</code> : prépare les modifications.</li>
         <li><code>git commit</code> : enregistre les modifications.</li>
-    </ul>
-</section>
+      </ul>
+    </section>
 
-<!-- Page 6 -->
-<section>
-    <h2>5. Les branches</h2>
+    <!-- Page 6 -->
+    <section>
+      <h2>5. Les branches</h2>
 
-    <pre>
+      <pre>
 git branch
 git switch -c nouvelle-fonctionnalite
 git switch main
-    </pre>
+    </pre
+      >
 
-    <p>
-        Une branche permet de travailler sur une
-        fonctionnalité sans modifier directement
-        la branche principale.
-    </p>
-</section>
+      <p>
+        Une branche permet de travailler sur une fonctionnalité sans modifier
+        directement la branche principale.
+      </p>
+    </section>
 
-<!-- Page 7 -->
-<section>
-    <h2>6. Git et le dépôt distant</h2>
+    <!-- Page 7 -->
+    <section>
+      <h2>6. Git et le dépôt distant</h2>
 
-    <pre>
+      <pre>
 git remote add origin URL_DU_DEPOT
 
 git push -u origin main
@@ -142,23 +138,26 @@ git push -u origin main
 git pull origin main
 
 git clone URL_DU_DEPOT
-    </pre>
+    </pre
+      >
 
-    <ul>
-        <li><code>git remote add</code> : relie le dépôt local au dépôt distant.</li>
+      <ul>
+        <li>
+          <code>git remote add</code> : relie le dépôt local au dépôt distant.
+        </li>
         <li><code>git push</code> : envoie les modifications.</li>
         <li><code>git pull</code> : récupère les modifications.</li>
         <li><code>git clone</code> : copie un dépôt distant.</li>
-    </ul>
-</section>
+      </ul>
+    </section>
 
-<!-- Page 8 -->
-<section>
-    <h2>7. Exemple pratique</h2>
+    <!-- Page 8 -->
+    <section>
+      <h2>7. Exemple pratique</h2>
 
-    <p>Voici un cycle de travail simple :</p>
+      <p>Voici un cycle de travail simple :</p>
 
-    <pre>
+      <pre>
 git status
 
 git add index.html
@@ -166,44 +165,43 @@ git add index.html
 git commit -m "Ajout de la page d'accueil"
 
 git push
-    </pre>
+    </pre
+      >
 
-    <p>
-        On modifie un fichier, on prépare les changements,
-        on crée un commit puis on envoie le projet sur GitHub.
-    </p>
-</section>
+      <p>
+        On modifie un fichier, on prépare les changements, on crée un commit
+        puis on envoie le projet sur GitHub.
+      </p>
+    </section>
 
-<!-- Page 9 -->
-<section class="center">
-    <h1>Conclusion 🚀</h1>
+    <!-- Page 9 -->
+    <section class="center">
+      <h1>Conclusion 🚀</h1>
 
-    <p>
-        Git permet de sauvegarder, organiser et
-        partager les modifications d'un projet.
-    </p>
+      <p>
+        Git permet de sauvegarder, organiser et partager les modifications d'un
+        projet.
+      </p>
 
-    <div class="card">
+      <div class="card">
         <h3>À retenir</h3>
         <p>
-            init = Initialiser<br>
-            status = Vérifier<br>
-            add = Préparer<br>
-            commit = Enregistrer<br>
-            push = Envoyer<br>
-            pull = Récupérer
+          init = Initialiser<br />
+          status = Vérifier<br />
+          add = Préparer<br />
+          commit = Enregistrer<br />
+          push = Envoyer<br />
+          pull = Récupérer
         </p>
-    </div>
+      </div>
 
-    <h2>Merci pour votre attention !</h2>
-</section>
+      <h2>Merci pour votre attention !</h2>
+    </section>
 
-<footer>
-    <button onclick="previousPage()">← Précédent</button>
-    <button onclick="nextPage()">Suivant →</button>
-    <p id="pageNumber">1 / 9</p>
-</footer>
-
-
-</body>
+    <footer>
+      <button onclick="previousPage()">← Précédent</button>
+      <button onclick="nextPage()">Suivant →</button>
+      <p id="pageNumber">1 / 9</p>
+    </footer>
+  </body>
 </html>
